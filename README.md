@@ -3,7 +3,7 @@
 ## Lab 2
 
 ### App Description
-`TODO://` My Application has one flashcard already made. The flashcard, when clicked, shows the answer to the question. The user can add a new questions and answer with the '+' icon in the bottom left hand of the screen. The user can cancel the new flashcard action by clicked on the 'x' icon in the bottom right hand of the screen.
+`TODO://` My Application has one flashcard already made. The flashcard, when clicked, shows the answer to the question. The user can add a new questions and answer with the '+' icon in the bottom right of the main screen. The user can save the new question with the 'save' icon in the bottom left of the new card screen. The user can cancel the new flashcard by clicking on the 'x' icon in the bottom right of the new card screen.
 
 ### App Walk-though
 
