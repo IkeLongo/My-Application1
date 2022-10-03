@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="200dp"
+    android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     //create new text view w/ dimensions and Q/A
@@ -11,9 +11,7 @@
     <TextView
         android:id="@+id/flashcard_question"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="0dp"
+        android:layout_height="200dp"
         android:gravity="center"
         android:text="How tall is the tallest building in the world (The Burj Khalifa)?"
         android:textSize="40sp" />
@@ -21,13 +19,27 @@
     <TextView
         android:id="@+id/flashcard_answer"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="0dp"
+        android:layout_height="200dp"
         android:gravity="center"
         android:text="2,722 ft"
         android:textSize="40sp"
-        android:visibility="invisible"
-        />
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/add_question_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/icon_add" />
+
+    <ImageView
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/cancel_button"
+        android:visibility="invisible" />
 
 </android.widget.RelativeLayout>

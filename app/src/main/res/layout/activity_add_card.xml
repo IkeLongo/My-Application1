@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCardActivity">
+
+    <ImageView
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/cancel_button" />
+
+    <ImageView
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/save_button" />
+
+    <EditText
+        android:id="@+id/new_question"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:hint="Enter question here" />
+
+    <EditText
+        android:id="@+id/new_answer"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/new_question"
+        android:hint="Enter answer here" />
+
+</android.widget.RelativeLayout>
