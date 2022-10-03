@@ -6,7 +6,6 @@
 `TODO://` My Application has one flashcard already made. The flashcard, when clicked, shows the answer to the question. The user can add a new questions and answer with the '+' icon in the bottom left hand of the screen. The user can cancel the new flashcard action by clicked on the 'x' icon in the bottom right hand of the screen.
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
 <img src="https://i.imgur.com/8AoFDq7.gif" width=200><br>
 
