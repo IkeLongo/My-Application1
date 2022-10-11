@@ -3,9 +3,7 @@
 ### App Description
 `TODO://` User can create a card and still see the card they created if the app is closed and reopened again. User can click through the different cards they created.
 
-<img src="https://i.imgur.com/hIgfSym.gif" width=200><br>
-
-`TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
+<img src="https://i.imgur.com/K60bET1.gif" width=200><br>
 
 ## Required
 - [x] User can create a card and still see their created card when the app is relaunched.
