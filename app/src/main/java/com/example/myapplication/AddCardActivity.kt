@@ -30,7 +30,9 @@ class AddCardActivity : AppCompatActivity() {
         }
 
         cancelButton.setOnClickListener {
+            val i = Intent(this, MainActivity::class.java)
             finish()
+            overridePendingTransition(R.anim.left_in, R.anim.right_out)
         }
     }
 }
